@@ -82,7 +82,7 @@ src/
 
 # 1. Clone this repository
 
-git clone https://github.com/Adii0904/Zippee---Star-Wars-Character-App
+git clone https://github.com/Adii0904/Zippee---Star-Wars-Character-App.git
 
 # 2. Move into project folder
 
