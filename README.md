@@ -1,16 +1,142 @@
-# React + Vite
+# Star Wars Character App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👋 Overview
 
-Currently, two official plugins are available:
+This project is a frontend assignment built for the Zippee Frontend Developer Role.
+It displays a list of Star Wars characters fetched from the SWAPI (Star Wars API)
+.
+The app is designed to be fully responsive, visually appealing, and easy to maintain — built using modern React + Tailwind CSS stack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧰 Tech Stack
 
-## React Compiler
+⚛️ React (Hooks + Functional Components)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+🎨 Tailwind CSS for fast, responsive styling
 
-## Expanding the ESLint configuration
+🔄 Fetch API / Axios for API calls
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧪 React Testing Library (if tests included)
+
+💚 Animate.css for subtle animations
+
+✨ Features Implemented
+🪐 Core Functionality
+
+Fetches characters from /people endpoint of SWAPI
+
+Implements pagination to browse through characters
+
+Displays character cards with name, image, and key details
+
+On click → opens a modal showing:
+
+Name
+
+Height (in meters)
+
+Mass (in kg)
+
+Birth Year
+
+Number of Films
+
+Date Added (formatted as dd-MM-yyyy)
+
+Homeworld details (name, terrain, climate, population)
+
+🧱 UI & UX
+
+Built using TailwindCSS gradients & shadows for modern design
+
+Hover effects and card animations for interactivity
+
+Consistent card dimensions for visual balance
+
+Responsive layout (works seamlessly on mobile, tablet & desktop)
+
+🔍 Bonus Additions (if implemented)
+
+Search by character name
+
+Filter by homeworld/species
+
+Mock Login & Token handling
+
+Smooth animations using Animate.css
+
+🧾 Folder Structure
+src/
+├── components/
+│ ├── CharacterCard.jsx
+│ ├── CharacterModal.jsx
+│ ├── HomeworldCard.jsx
+│ └── Navbar.jsx
+├── pages/
+│ └── Characters.jsx
+├── App.jsx
+├── index.js
+└── styles/
+└── index.css
+
+⚙️ How to Run the Project
+
+# 1. Clone this repository
+
+git clone https://github.com/Adii0904/Zippee---Star-Wars-Character-App
+
+# 2. Move into project folder
+
+cd zippee-assessment/zippee-swapi
+
+# 3. Install dependencies
+
+npm install
+
+# 4. Start the development server
+
+npm run dev
+
+App will run at: http://localhost:5173/
+(if using Vite)
+
+### 🧪 Testing
+
+An integration test has been added using **React Testing Library** to ensure that the character detail modal opens and displays correct data.  
+To run the test:
+
+```bash
+npm test
+
+📦 Build for Production
+npm run build
+
+🧠 Design Choices & Notes
+
+Functional Components + Hooks: Keeps code clean and modular
+
+Tailwind Utility Classes: Ensures rapid prototyping and responsive design
+
+Consistent Gradient Themes: Every card follows a unified visual structure
+
+Clean State Handling: API data & errors handled gracefully
+
+Responsive Design: All cards auto-adjust layout across breakpoints
+
+
+
+💬 Final Thoughts
+
+This assignment reflects my approach to building clean, modern, and scalable front-end applications.
+I’ve focused on performance, consistency, and a visually appealing user experience.
+Looking forward to discussing this further in the next round! 🙌
+
+🥷 The Full Stack JavaScript Developer
+
+Aditya Prakash
+JavaScript: Full Stack Developer
+📍 Gurgaon, India
+✉️ adityaprakash0904@gmail.com
+🔗 GIT-HUB - "https://github.com/Adii0904"
+🖇️ REPO-LINK - "https://github.com/Adii0904/Zippee---Star-Wars-Character-App/tree/main"
+
+```
