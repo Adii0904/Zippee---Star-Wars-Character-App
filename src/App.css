@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.card-custom::after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.8);
+  filter: blur(25px);
+  background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
+  transition: opacity 0.5s;
+}
+
+.card-custom:hover::after {
+  opacity: 0;
+}
+
+.card-info:hover {
+  color: #f7ba2b;
+}
